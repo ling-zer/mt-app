@@ -1,0 +1,35 @@
+.like-list{
+    
+    // margin: 0 auto;
+    // background: #fff;
+    // padding: 0 10px;
+    a{
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+        text-align: center;
+        margin-bottom: 20px;
+        img{
+            border-radius: 5px;
+        }
+        p{
+            text-align: start;
+            padding-left: 10px;
+            &.title{
+                color: #000;
+            }
+            &.addr{
+                font-size: 12px;
+                color: #ccc;
+            }
+            .icon{
+                color: #f40;
+            }
+            .like-price{
+                color: #f40;
+                font-size: 20px;
+            }
+        }
+    }
+}
